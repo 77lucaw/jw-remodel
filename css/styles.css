@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -28,11 +27,19 @@ nav a {
   height: 90vh;
   background: url('../images/hero.jpg') center/cover no-repeat;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
 }
 
 .overlay {
   background: rgba(0,0,0,0.6);
   height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -83,6 +90,7 @@ footer {
   padding: 20px;
   background: #eee;
 }
+
 .trust {
   padding: 50px 20px;
   text-align: center;
@@ -97,41 +105,4 @@ footer {
 .trust li {
   margin: 10px 0;
   font-size: 18px;
-=======
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-  background: #111;
-  color: white;
-}
-
-nav a {
-  color: white;
-  margin-left: 15px;
-  text-decoration: none;
-}
-
-.hero {
-  height: 80vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: #333;
-  color: white;
-  text-align: center;
-}
-
-.btn {
-  background: orange;
-  padding: 12px 20px;
-  color: white;
-  text-decoration: none;
->>>>>>> 09b0247f1e7b2d9ca6c7b158159c8e46a01ba191
 }
