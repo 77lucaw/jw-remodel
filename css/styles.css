@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -96,4 +97,41 @@ footer {
 .trust li {
   margin: 10px 0;
   font-size: 18px;
+=======
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: #111;
+  color: white;
+}
+
+nav a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.hero {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #333;
+  color: white;
+  text-align: center;
+}
+
+.btn {
+  background: orange;
+  padding: 12px 20px;
+  color: white;
+  text-decoration: none;
+>>>>>>> 09b0247f1e7b2d9ca6c7b158159c8e46a01ba191
 }

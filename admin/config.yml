@@ -15,3 +15,20 @@ collections:
         fields:
           - { label: "Subtitle", name: "subtitle", widget: "string" }
           - { label: "CTA Text", name: "cta", widget: "string" }
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "home"
+    label: "Home Page"
+    files:
+      - file: "content/home.json"
+        label: "Home Content"
+        name: "home"
+        fields:
+          - { label: "Subtitle", name: "subtitle", widget: "string" }
+          - { label: "CTA Text", name: "cta", widget: "string" }
