@@ -7,4 +7,3 @@ async function loadHome() {
 }
 
 loadHome();
-// hi
