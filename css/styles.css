@@ -83,7 +83,7 @@ body {
 /* ABOUT */
 .about {
   padding: 70px 20px;
-  text-align: center;
+  text-align: left;
   max-width: 700px;
   margin: auto;
 }
