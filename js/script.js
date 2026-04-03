@@ -4,8 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const cta = document.getElementById("cta");
 
   const messages = [
-    "Kitchen & Bathroom Remodeling",
-    "Basements • Additions • Repairs",
+    "Basement & Bathroom Remodeling",
     "Quality Work You Can Trust"
   ];
 
