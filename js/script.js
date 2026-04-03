@@ -38,7 +38,6 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   cards.forEach(card => observer.observe(card));
-});
 
 const modal = document.getElementById("imgModal");
 const modalImg = document.getElementById("modalImg");
@@ -87,3 +86,6 @@ document.addEventListener("keydown", (e) => {
     if (e.key === "Escape") modal.style.display = "none";
   }
 });
+
+});
+
