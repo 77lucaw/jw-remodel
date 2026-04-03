@@ -142,6 +142,7 @@ footer {
   padding: 40px 20px;
   max-width: 1100px;
   margin: auto;
+  background: #818181;
 }
 
 .gallery img {
@@ -150,7 +151,6 @@ footer {
   object-fit: cover;
   height: 220px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.15);
-  background: #818181;
 }
 /* CONTACT FORM FIX */
 form {
@@ -160,7 +160,10 @@ form {
   flex-direction: column;
   gap: 15px;
 }
-
+.contact {
+  background: #818181; /* gray background */
+  padding: 40px 20px;
+}
 input, textarea {
   padding: 14px;
   border-radius: 8px;
