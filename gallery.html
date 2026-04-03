@@ -10,13 +10,7 @@
   <meta name="robots" content="noindex, follow">
   <link rel="stylesheet" href="css/styles.css">
 </head>
-<!-- IMAGE MODAL -->
-<div id="imgModal" class="modal">
-  <span class="close">&times;</span>
-  <span class="arrow left">&#10094;</span>
-  <img class="modal-content" id="modalImg">
-  <span class="arrow right">&#10095;</span>
-</div>
+
 <body>
 
 <header class="header">
@@ -44,38 +38,16 @@
   <p>© 2026 JW Remodel | West Seattle</p>
 </footer>
 
+<!-- IMAGE MODAL (CORRECT PLACE) -->
+<div id="imgModal" class="modal">
+  <span class="close">&times;</span>
+  <span class="arrow left">&#10094;</span>
+  <img class="modal-content" id="modalImg">
+  <span class="arrow right">&#10095;</span>
+</div>
+
+<!-- USE YOUR MAIN SCRIPT -->
+<script src="js/script.js"></script>
+
 </body>
 </html>
-
-<script>
-const images = document.querySelectorAll(".gallery img");
-
-images.forEach(img => {
-  img.onclick = () => {
-    const popup = document.createElement("div");
-    popup.style.position = "fixed";
-    popup.style.top = 0;
-    popup.style.left = 0;
-    popup.style.width = "100%";
-    popup.style.height = "100%";
-    popup.style.background = "rgba(0,0,0,0.9)";
-    popup.style.display = "flex";
-    popup.style.alignItems = "center";
-    popup.style.justifyContent = "center";
-    popup.style.zIndex = 999;
-
-    const bigImg = document.createElement("img");
-    bigImg.src = img.src;
-    bigImg.style.maxWidth = "90%";
-    bigImg.style.maxHeight = "80%";
-    bigImg.style.borderRadius = "10px";
-
-    popup.appendChild(bigImg);
-
-    popup.onclick = () => popup.remove();
-
-    document.body.appendChild(popup);
-  };
-});
-</script>
-
