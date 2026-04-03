@@ -37,7 +37,9 @@ body {
   position: relative;
   overflow: hidden; /* add this line */
 }
-
+.hero {
+  background-position: center center;
+}
 .hero .overlay {
   position: absolute;
   top: 0;
@@ -412,4 +414,15 @@ button {
   .hero .overlay {
     background: rgba(0, 0, 0, 0.4);
   }
+}
+@media (max-width: 768px) {
+
+  .hero {
+    min-height: 70vh; /* slightly smaller = fixes vertical shift */
+  }
+
+  .hero .overlay {
+    background: rgba(0, 0, 0, 0.45); /* cleaner + more even */
+  }
+
 }
