@@ -426,3 +426,45 @@ button {
   }
 
 }
+
+/* MODAL BACKGROUND */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  padding-top: 60px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.9);
+}
+
+/* IMAGE */
+.modal-content {
+  display: block;
+  margin: auto;
+  max-width: 90%;
+  max-height: 80vh;
+  border-radius: 10px;
+}
+
+/* CLOSE BUTTON */
+.close {
+  position: absolute;
+  top: 20px;
+  right: 35px;
+  color: white;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+/* CLICKABLE IMAGES */
+.gallery img {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.03);
+}
