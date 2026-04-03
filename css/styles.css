@@ -150,6 +150,7 @@ footer {
   object-fit: cover;
   height: 220px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+  background: #818181;
 }
 /* CONTACT FORM FIX */
 form {
@@ -158,6 +159,7 @@ form {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  background: #818181;
 }
 
 input, textarea {
