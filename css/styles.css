@@ -134,6 +134,69 @@ body {
   margin-bottom: 30px; /* 👈 THIS FIXES IT */
 }
 
+/* REVIEWS */
+.reviews {
+  padding: 70px 20px;
+  text-align: center;
+  background: #f1f5f9;
+}
+
+.reviews h2 {
+  margin-bottom: 30px;
+}
+
+.review-cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.review-card {
+  background: white;
+  padding: 25px;
+  width: 280px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.review-card p {
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.review-card span {
+  font-weight: bold;
+  color: #334155;
+}
+
+.stars {
+  color: #f97316;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.google-btn-container {
+  margin-top: 30px;
+}
+
+.google-btn {
+  display: inline-block;
+  padding: 14px 28px;
+  background: #0f172a;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.google-btn:hover {
+  background: #1e293b;
+  transform: translateY(-2px);
+}
+
 /* FOOTER */
 footer {
   background: #020617;
