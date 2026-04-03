@@ -35,12 +35,15 @@ body {
   height: auto;
   background: url('../images/project1.jpg') center/cover no-repeat;
   position: relative;
+  overflow: hidden; /* add this line */
 }
 
 .hero .overlay {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   background: rgba(45, 45, 45, 0.60); /* gray film */
   display: flex;
   flex-direction: column;
