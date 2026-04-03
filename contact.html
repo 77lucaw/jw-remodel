@@ -26,14 +26,19 @@
 <section class="services">
   <h2>Contact Us</h2>
   <form action="https://formspree.io/f/xqegyynq" method="POST">
-  <input type="text" name="name" placeholder="Your Name" required>
-  <input type="email" name="email" placeholder="Your Email" required>
-  <textarea name="message" placeholder="Tell us about your project" required></textarea>
-  <input type="hidden" name="_subject" value="New JW Remodel Lead">
-  <!-- spam protection -->
-  <input type="text" name="_gotcha" style="display:none">
-  <button type="submit" class="btn">Send Message</button>
-</form>
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Tell us about your project" required></textarea>
+
+    <!-- Formspree settings -->
+    <input type="hidden" name="_subject" value="New JW Remodel Lead">
+    <input type="hidden" name="_next" value="thank-you.html"> <!-- redirect to thank you page -->
+
+    <!-- spam protection -->
+    <input type="text" name="_gotcha" style="display:none">
+
+    <button type="submit" class="btn">Send Message</button>
+  </form>
 </section>
 
 <footer>
