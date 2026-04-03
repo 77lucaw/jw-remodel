@@ -124,7 +124,7 @@ body {
 }
 
 .cta-strip h2 {
-  margin-bottom: 20px; /* 👈 THIS FIXES IT */
+  margin-bottom: 30px; /* 👈 THIS FIXES IT */
 }
 
 /* FOOTER */
