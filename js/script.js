@@ -39,3 +39,51 @@ document.addEventListener("DOMContentLoaded", function () {
 
   cards.forEach(card => observer.observe(card));
 });
+
+const modal = document.getElementById("imgModal");
+const modalImg = document.getElementById("modalImg");
+const images = document.querySelectorAll(".gallery img");
+const closeBtn = document.querySelector(".close");
+const leftArrow = document.querySelector(".arrow.left");
+const rightArrow = document.querySelector(".arrow.right");
+
+let currentIndex = 0;
+
+// Open image
+images.forEach((img, index) => {
+  img.onclick = () => {
+    modal.style.display = "flex";
+    modalImg.src = img.src;
+    currentIndex = index;
+  };
+});
+
+// Close
+closeBtn.onclick = () => modal.style.display = "none";
+modal.onclick = (e) => {
+  if (e.target === modal) modal.style.display = "none";
+};
+
+// Next image
+function showNext() {
+  currentIndex = (currentIndex + 1) % images.length;
+  modalImg.src = images[currentIndex].src;
+}
+
+// Previous image
+function showPrev() {
+  currentIndex = (currentIndex - 1 + images.length) % images.length;
+  modalImg.src = images[currentIndex].src;
+}
+
+rightArrow.onclick = showNext;
+leftArrow.onclick = showPrev;
+
+// Keyboard support
+document.addEventListener("keydown", (e) => {
+  if (modal.style.display === "flex") {
+    if (e.key === "ArrowRight") showNext();
+    if (e.key === "ArrowLeft") showPrev();
+    if (e.key === "Escape") modal.style.display = "none";
+  }
+});
