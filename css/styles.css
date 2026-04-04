@@ -21,6 +21,7 @@ body {
   color: white;
   position: sticky;
   top: 0;
+  z-index: 1000; /* ADD THIS */
 }
 
 .header a {
@@ -223,6 +224,7 @@ footer {
   text-align: center;
   padding: 20px;
 }
+
 /* GALLERY FIX */
 .gallery {
   display: grid;
