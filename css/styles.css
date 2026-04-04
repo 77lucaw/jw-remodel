@@ -234,6 +234,11 @@ footer {
   height: 220px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.15);
 }
+
+html {
+  overflow-y: scroll;
+}
+
 /* CONTACT FORM FIX */
 form {
   max-width: 500px;
