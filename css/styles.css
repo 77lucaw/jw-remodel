@@ -14,18 +14,22 @@ body {
 /* HEADER */
 .header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
-  background: #1e293b !important; /* FORCE override */
+  background: #1e293b;
   color: white;
   position: sticky;
   top: 0;
 }
 
+.header nav {
+  display: flex;
+  align-items: center;
+}
+
 .header a {
   color: white;
-  margin-left: 20px;
+  margin-right: 20px; /* space between items */
   text-decoration: none;
   font-weight: 500;
 }
