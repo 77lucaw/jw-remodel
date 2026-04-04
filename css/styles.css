@@ -15,8 +15,9 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 20px 40px;
-  background: #1e293b;
+  background: #1e293b !important; /* FORCE override */
   color: white;
   position: sticky;
   top: 0;
