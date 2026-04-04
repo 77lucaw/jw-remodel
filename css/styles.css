@@ -277,14 +277,19 @@ button {
   color: #000000;
 }
 
+/* Default (desktop) — looks like normal text */
 .contact-alt a {
-  color: #000000;
+  color: inherit;
   text-decoration: none;
-  font-weight: 500;
+  pointer-events: none; /* disables clicking */
 }
 
-.contact-alt a:hover {
-  text-decoration: underline;
+/* Mobile only */
+@media (max-width: 768px) {
+  .contact-alt a {
+    text-decoration: underline;
+    pointer-events: auto; /* enables clicking */
+  }
 }
 
 .about {
