@@ -67,6 +67,16 @@ body {
   margin-bottom: 10px;
 }
 
+.hero-sub {
+  font-size: 1.4rem; /* increase this */
+  margin-top: 10px;
+}
+
+#subtitle {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
 /* BUTTON */
 .btn {
   margin-top: 20px;
