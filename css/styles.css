@@ -416,6 +416,15 @@ button {
   .hero h1 { font-size: 2rem; }
   .hero .overlay { background: rgba(0,0,0,0.45); min-height: 70vh; }
 
+  /* TRUST BAR */
+  .trust-bar {
+    flex-direction: column;  /* stack items */
+    gap: 10px;               /* space between items */
+    text-align: center;       /* center text */
+    padding: 15px 10px;       /* reduce padding for mobile */
+    font-size: 14px;
+  }
+
   /* ABOUT */
   .about-container { flex-direction: column; }
   .about-image img { height: 250px; }
