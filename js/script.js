@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const messages = [
     "Basement & Bathroom Remodeling",
-    "Quality Work You Can Trust"
+    "Quality Work You Can Trust",
     "Serving West Seattle"
   ];
 
