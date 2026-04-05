@@ -418,17 +418,17 @@ button {
 
   .trust-bar {
     display: flex !important;
-    flex-direction: column !important;  /* stack vertically */
-    align-items: center;                /* center each item horizontally */
-    gap: 10px;                          /* spacing between items */
-    text-align: center;                 /* text centered */
-    padding: 15px 10px;                 /* reduce padding for mobile */
+    flex-direction: column !important;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    padding: 15px 10px;
     font-size: 14px;
   }
 
   .trust-bar > div {
-    width: 100%;                    /* optional: full width for stacked items */
-    padding: 5px 0;                 /* vertical padding for spacing */
+    width: 100%;
+    padding: 5px 0;
   }
 
 
