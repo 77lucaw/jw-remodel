@@ -494,11 +494,12 @@ button {
 /* CLOSE BUTTON */
 .close {
   position: absolute;
-  top: 20px;
+  top: 500px;
   right: 35px;
   color: white;
   font-size: 40px;
   cursor: pointer;
+  z-index: 2100;
 }
 
 /* CLICKABLE IMAGES */
