@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   updateText();
-  setInterval(updateText, 3000);
+  setInterval(updateText, 4000);
 
   // CTA BUTTON TEXT
   if (cta) {
