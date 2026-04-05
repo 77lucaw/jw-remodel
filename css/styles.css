@@ -64,17 +64,11 @@ body {
 
 .hero h1 {
   font-size: 3rem;
-  margin-bottom: 10px;
 }
 
-.hero-sub {
-  font-size: 1.4rem; /* increase this */
-  margin-top: 10px;
-}
-
-#subtitle {
-  font-size: 1.5rem;
-  margin-top: 10px;
+.hero-rotate {
+  font-size: 1.1rem; /* smaller */
+  margin-top: 7px;
 }
 
 /* BUTTON */

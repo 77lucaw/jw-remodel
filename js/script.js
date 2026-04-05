@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const cta = document.getElementById("cta");
 
   const messages = [
-    "Basement & Bathroom Remodeling",
+    "Built To Last",
     "Quality Work You Can Trust",
     "Serving West Seattle"
   ];
