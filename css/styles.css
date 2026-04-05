@@ -494,7 +494,7 @@ button {
 /* CLOSE BUTTON */
 .close {
   position: absolute;
-  top: 500px;
+  top: 70px;
   right: 35px;
   color: white;
   font-size: 40px;
@@ -532,16 +532,6 @@ button {
   max-height: 80vh;
   border-radius: 12px;
   animation: zoom 0.3s ease;
-}
-
-/* CLOSE BUTTON */
-.close {
-  position: absolute;
-  top: 20px;
-  right: 30px;
-  color: white;
-  font-size: 40px;
-  cursor: pointer;
 }
 
 /* ARROWS */
