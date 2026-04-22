@@ -1,0 +1,82 @@
+/* FAQ PAGE */
+
+.faq-page {
+  flex: 1;
+}
+
+/* HERO */
+.faq-hero {
+  text-align: center;
+  padding: 80px 20px 40px;
+}
+
+.faq-hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.faq-hero p {
+  color: #555;
+}
+
+/* FAQ CONTAINER */
+.faq-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* FAQ ITEM */
+.faq-item {
+  margin-bottom: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+/* QUESTION BUTTON */
+.faq-question {
+  width: 100%;
+  padding: 18px 20px;
+  font-size: 16px;
+  text-align: left;
+  border: none;
+  background: #1e293b;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  transition: 0.2s;
+}
+
+.faq-question:hover {
+  background: #334155;
+}
+
+/* ADD + ICON */
+.faq-question::after {
+  content: "+";
+  position: absolute;
+  right: 20px;
+  font-size: 20px;
+}
+
+/* ACTIVE STATE */
+.faq-item.active .faq-question::after {
+  content: "−";
+}
+
+/* ANSWER */
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  background: #f9fafb;
+  transition: max-height 0.3s ease;
+}
+
+.faq-answer p {
+  padding: 15px 20px;
+  margin: 0;
+  color: #334155;
+  line-height: 1.6;
+}
