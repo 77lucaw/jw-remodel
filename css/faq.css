@@ -38,7 +38,7 @@
 /* QUESTION BUTTON */
 .faq-question {
   width: 100%;
-  padding: 18px 20px;
+  padding: 18px 50px 18px 20px; /* extra space on right */
   font-size: 16px;
   text-align: left;
   border: none;
@@ -47,6 +47,7 @@
   cursor: pointer;
   position: relative;
   transition: 0.2s;
+  line-height: 1.4;
 }
 
 .faq-question:hover {
