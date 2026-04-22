@@ -397,20 +397,32 @@ button {
   }
 
   /* HEADER */
+@media (max-width: 768px) {
+
   .header {
-    flex-direction: column;
+    flex-direction: row; /* keep everything horizontal */
+    justify-content: space-between;
     align-items: center;
-    padding: 15px 20px;
+    padding: 10px 12px;
+  }
+
+  .logo {
+    font-size: 0.95rem; /* slightly smaller logo */
+    white-space: nowrap;
   }
 
   .header nav {
-    margin-top: 10px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: nowrap; /* NO WRAPPING */
   }
 
-  .header a {
-    display: inline-block;
-    margin: 8px 10px;
+  .header nav a {
+    margin: 0;
+    font-size: 12px; /* smaller text so it fits */
+    white-space: nowrap;
   }
+}
 
   /* HERO */
   .hero h1 { font-size: 2rem; }
